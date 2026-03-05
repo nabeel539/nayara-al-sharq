@@ -1,4 +1,5 @@
 import { DM_Sans, Barlow } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -14,7 +15,8 @@ const barlow = Barlow({
 });
 
 export const metadata = {
-  title: "Nayara Construction | Trusted Industrial & Commercial Engineering Experts",
+  title:
+    "Nayara Construction | Trusted Industrial & Commercial Engineering Experts",
   description:
     "Nayara Construction delivers reliable civil, mechanical, electrical, HVAC, and infrastructure solutions across industrial and commercial projects with a focus on quality, safety, and precision.",
   keywords: [
@@ -40,14 +42,12 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${dmSans.variable} ${barlow.variable} antialiased`}
-      >
+      <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
         {children}
+        <Toaster position="top-center" />
       </body>
     </html>
   );

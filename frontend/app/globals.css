@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   @apply font-secondary text-secondary;
@@ -13,6 +16,39 @@ body {
   border-radius: 0 !important;
 }
 
+/* Custom scrollbar styles */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #d4af37 transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #d4af37;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #c9a227;
+}
 
 h1,
 h2,

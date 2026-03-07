@@ -19,6 +19,14 @@ export const metadata = {
     "Nayara Construction | Trusted Industrial & Commercial Engineering Experts",
   description:
     "Nayara Construction delivers reliable civil, mechanical, electrical, HVAC, and infrastructure solutions across industrial and commercial projects with a focus on quality, safety, and precision.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   keywords: [
     "Construction Company",
     "Civil Engineering",

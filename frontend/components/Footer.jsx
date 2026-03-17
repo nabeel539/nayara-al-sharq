@@ -30,7 +30,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-accent transition"
                 >
-                  8490 Al Mahd, REJA8490, 4052
+                  8490 Al Nayara, REJA8490, 4052
                   <br />
                   Al Malaz, Riyadh 12833
                 </a>

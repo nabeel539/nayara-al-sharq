@@ -66,7 +66,7 @@ const Contact = () => {
                   </p>
 
                   <p className="text-primary font-medium group-hover:text-accent underline-offset-4 group-hover:underline transition">
-                    8490 Al Mahd
+                    8490 Al Nayara
                     <br />
                     REJA8490, 4052
                     <br />

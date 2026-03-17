@@ -59,7 +59,7 @@ export const testimonials = [
     message:
       "Nayara Al-Sharq General Contracting Establishment successfully completed the design and execution of HVAC systems for our main building in Dammam with high efficiency and professionalism.",
     project: "HVAC System Design & Installation",
-    certificate: "/assets/img/certificates/qahtani-hvac.png",
+    certificate: "/assets/img/Certificates/qahtani-hvac.png",
     featured: false,
   },
   {
@@ -69,7 +69,7 @@ export const testimonials = [
     message:
       "Emaar Al Asima Projects appreciates the professionalism and technical expertise demonstrated by Nayara Al Sharq General Contracting EST during the fire fighting project.",
     project: "Fire Fighting Systems Installation",
-    certificate: "/assets/img/certificates/emaar-alasima.png",
+    certificate: "/assets/img/Certificates/emaar-alasima.png",
     featured: false,
   },
   {
@@ -79,7 +79,7 @@ export const testimonials = [
     message:
       "We extend our sincere appreciation to Nayara Al Sharq General Contracting EST for the successful execution of projects and their strong commitment to quality standards and deadlines.",
     project: "Engineering & Contracting Services",
-    certificate: "/assets/img/certificates/asyaf.png",
+    certificate: "/assets/img/Certificates/asyaf.png",
     featured: false,
   },
 ];

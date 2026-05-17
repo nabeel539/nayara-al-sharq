@@ -53,7 +53,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
+      <body className={`${dmSans.variable} ${barlow.variable} antialiased`} suppressHydrationWarning>
         {children}
         <Toaster position="top-center" />
       </body>

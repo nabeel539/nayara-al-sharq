@@ -12,6 +12,7 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import Topbar from "@/components/Topbar";
 import Work from "@/components/Work";
+import TelecomWorkflow from "@/components/TelecomWorkflow";
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
@@ -45,6 +46,7 @@ const Home = () => {
       <MissionVision />
       <Services />
       <Work />
+      <TelecomWorkflow />
       <Certifications />
       <Testimonials />
       <Faq />

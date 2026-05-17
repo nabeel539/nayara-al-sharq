@@ -1,117 +1,9 @@
-// export const projectsData = [
-//   {
-//     id: 1,
-//     title: "CCTV Camera Works",
-//     location: "KSA",
-//     category: "Security",
-//     year: "2024",
-//     client: "Premium Enterprises",
-//     description:
-//       "Delivered high-quality CCTV camera installation services at prestigious and high-profile locations across Saudi Arabia including IMI Aramco, Ministry of Culture projects, Riyadh Expo Event, and major coffee shop installations in Riyadh.",
-//     images: [
-//       "/assets/img/work/restoration.jpg",
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/consulting.jpg",
-//       "/assets/img/work/renovation.jpg",
-//     ],
-//     featured: true,
-//   },
-//   {
-//     id: 2,
-//     title: "Structural Restoration",
-//     location: "Dubai, UAE",
-//     category: "Restoration",
-//     year: "2024",
-//     client: "Emaar Properties",
-//     description:
-//       "Professional structural restoration project ensuring durability and long-term performance. Implemented advanced restoration techniques on heritage buildings while maintaining architectural integrity.",
-//     images: [
-//       "/assets/img/work/restoration.jpg",
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/consulting.jpg",
-//       "/assets/img/work/renovation.jpg",
-//     ],
-//   },
-//   {
-//     id: 3,
-//     title: "Modern Construction Complex",
-//     location: "Riyadh, KSA",
-//     category: "Construction",
-//     year: "2023",
-//     client: "Al Rajhi Corporation",
-//     description:
-//       "High-quality construction solutions built with precision and modern engineering practices. Multi-phase project covering commercial and residential spaces with sustainable infrastructure.",
-//     images: [
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/restoration.jpg",
-//       "/assets/img/work/renovation.jpg",
-//       "/assets/img/work/consulting.jpg",
-//     ],
-//   },
-//   {
-//     id: 4,
-//     title: "Engineering Consulting Services",
-//     location: "KSA",
-//     category: "Consulting",
-//     year: "2024",
-//     client: "Multiple Government Bodies",
-//     description:
-//       "Expert engineering consultation for efficient, compliant and optimized execution. Provided strategic guidance on infrastructure projects and technical implementations across various sectors.",
-//     images: [
-//       "/assets/img/work/consulting.jpg",
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/restoration.jpg",
-//       "/assets/img/work/renovation.jpg",
-//     ],
-//   },
-//   {
-//     id: 5,
-//     title: "Space Renovation Initiative",
-//     location: "Jeddah, KSA",
-//     category: "Renovation",
-//     year: "2023",
-//     client: "Urban Development Authority",
-//     description:
-//       "Transforming spaces with innovative renovation solutions for modern living. Created contemporary designs while preserving heritage elements and improving functional efficiency.",
-//     images: [
-//       "/assets/img/work/renovation.jpg",
-//       "/assets/img/work/restoration.jpg",
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/consulting.jpg",
-//     ],
-//   },
-//   {
-//     id: 6,
-//     title: "Industrial Facility Upgrade",
-//     location: "Eastern Province, KSA",
-//     category: "Construction",
-//     year: "2023",
-//     client: "Saudi Industrial Company",
-//     description:
-//       "Comprehensive industrial facility upgrade featuring state-of-the-art equipment installation and infrastructure enhancements. Ensured minimal operational downtime during implementation.",
-//     images: [
-//       "/assets/img/work/construction.jpg",
-//       "/assets/img/work/consulting.jpg",
-//       "/assets/img/work/renovation.jpg",
-//       "/assets/img/work/restoration.jpg",
-//     ],
-//   },
-// ];
-
-// export const categories = [
-//   "All",
-//   "Security",
-//   "Restoration",
-//   "Construction",
-//   "Consulting",
-//   "Renovation",
-// ];
 export const projectsData = [
   {
     id: 1,
     title: "CCTV Camera Works",
     location: "Riyadh, KSA",
-    category: "Security",
+    category: "Fire & Security",
     year: "",
     client: "SIAD Information Technology Co.",
     description:
@@ -143,7 +35,7 @@ export const projectsData = [
     id: 3,
     title: "Pump Room",
     location: "Riyadh, KSA",
-    category: "Mechanical",
+    category: "Construction",
     year: "",
     client: "",
     description:
@@ -159,7 +51,7 @@ export const projectsData = [
     id: 4,
     title: "Chiller Installation & HVAC Supply",
     location: "Dammam, KSA",
-    category: "HVAC",
+    category: "Construction",
     year: "",
     client: "Saeed Hadi Al-Qahtani Company",
     description:
@@ -175,7 +67,7 @@ export const projectsData = [
     id: 5,
     title: "Fire Fighting Supply & Installation",
     location: "Dammam, Saudi Arabia",
-    category: "Fire Safety",
+    category: "Fire & Security",
     year: "",
     client: "Emmar Al-Asimah Company",
     description:
@@ -192,7 +84,7 @@ export const projectsData = [
     id: 6,
     title: "Landscape Development",
     location: "Riyadh, KSA",
-    category: "Landscape",
+    category: "Construction",
     year: "",
     client: "Nabatat Contracting Company",
     description:
@@ -208,7 +100,7 @@ export const projectsData = [
     id: 7,
     title: "Residential Villa Construction",
     location: "El Kharj, KSA",
-    category: "Residential",
+    category: "Construction",
     year: "",
     client: "",
     description:
@@ -222,15 +114,91 @@ export const projectsData = [
       "/assets/img/work/Villa4.png",
     ],
   },
+  {
+    id: 8,
+    title: "Civil Work GSM (STC)",
+    location: "Riyadh, KSA",
+    category: "Telecom",
+    year: "",
+    client: "CSC",
+    tower: "STC",
+    sites: "6",
+    description:
+      "Delivered GSM civil infrastructure works including tower foundation preparation, trenching, cable routing support, and telecom site development for STC network expansion projects.",
+    images: [
+      "/assets/img/services/towers/tower1.png",
+      "/assets/img/services/towers/tower2.png",
+    ],
+  },
+  {
+    id: 9,
+    title: "Rooftop GSM (MOBILY)",
+    location: "Riyadh, KSA",
+    category: "Telecom",
+    year: "",
+    client: "IGTL",
+    tower: "MOBILY",
+    sites: "10",
+    description:
+      "Completed rooftop GSM installation projects involving equipment mounting, structural support works, feeder cable management, and telecom system integration across multiple urban sites.",
+    images: [
+      "/assets/img/services/towers/tower3.png",
+      "/assets/img/services/towers/tower4.png",
+    ],
+  },
+  {
+    id: 10,
+    title: "Tower Erection Civil (MOI)",
+    location: "Riyadh, KSA",
+    category: "Telecom",
+    year: "",
+    client: "BABTAIN",
+    tower: "MOI",
+    sites: "2",
+    description:
+      "Executed telecom tower erection and associated civil works including foundation alignment, grounding systems, structural assembly, and installation support for secure communication infrastructure.",
+    images: [
+      "/assets/img/services/towers/tower5.png",
+      "/assets/img/services/towers/tower6.png",
+    ],
+  },
+  {
+    id: 11,
+    title: "Civil Works GSM (STC-TAWAL)",
+    location: "Riyadh, KSA",
+    category: "Telecom",
+    year: "",
+    client: "MME",
+    tower: "STC-TAWAL",
+    sites: "2+",
+    description:
+      "Provided telecom civil construction services covering site preparation, equipment base construction, cable trenching, and infrastructure support for GSM network deployment projects.",
+    images: [
+      "/assets/img/services/towers/tower7.png",
+      "/assets/img/services/towers/tower8.png",
+    ],
+  },
+  {
+    id: 12,
+    title: "GSM Tower Installation (STC)",
+    location: "Riyadh, KSA",
+    category: "Telecom",
+    year: "",
+    client: "GENTEC",
+    tower: "STC",
+    sites: "4+",
+    description:
+      "Handled GSM tower installation activities including tower assembly, antenna mounting, feeder line installation, safety inspections, and telecom commissioning coordination.",
+    images: [
+      "/assets/img/services/towers/tower9.png",
+      "/assets/img/services/towers/tower10.png",
+    ],
+  }
 ];
 
 export const categories = [
   "All",
-  "Security",
   "Construction",
-  "Mechanical",
-  "HVAC",
-  "Fire Safety",
-  "Landscape",
-  "Residential",
+  "Telecom",
+  "Fire & Security",
 ];

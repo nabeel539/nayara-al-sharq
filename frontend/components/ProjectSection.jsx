@@ -55,7 +55,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <section className="pt-16 xl:pt-32" id="work">
+      <section className="pt-16 xl:pt-32 pb-16 xl:pb-32" id="work">
         <div className="container mx-auto px-4 max-w-7xl">
           {/* HEADER */}
           <motion.div

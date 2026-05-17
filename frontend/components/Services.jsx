@@ -329,6 +329,7 @@ import {
   PiCpuFill,
   PiWifiHighFill,
   PiRobotFill,
+  PiBroadcastFill,
 } from "react-icons/pi";
 import Pretitle from "./Pretitle";
 
@@ -466,6 +467,23 @@ const serviceData = [
       "Integrated Controls",
       "Smart Monitoring",
       "System Optimization",
+    ],
+  },
+  {
+    id: 10,
+    name: "Telecommunication Infrastructure",
+    icon: <PiBroadcastFill className="w-8 h-8" />,
+    description:
+      "Professional telecom infrastructure solutions including GSM tower erection, telecom civil works, feeder cable routing, grounding systems, shelter installation, and commissioning services for industrial and communication sectors.",
+    features: [
+      "GSM Tower Installation",
+      "Tower Erection",
+      "Telecom Civil Works",
+      "Feeder Cable Routing",
+      "Grounding Systems",
+      "Shelter Installation",
+      "Indoor Jumper Installation",
+      "Equipment Commissioning",
     ],
   },
 ];

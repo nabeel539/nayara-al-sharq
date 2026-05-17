@@ -120,8 +120,12 @@ const ProjectModal = ({ isOpen, project, onClose, allProjects }) => {
                     {project.title}
                   </h1>
                   <div className="flex items-center gap-2 text-secondary/70 text-sm">
-                    <div className="w-2 h-2 rounded-full bg-accent" />
-                    <span>{project.location}</span>
+                    {project.category !== "Telecom" && (
+                      <>
+                        <div className="w-2 h-2 rounded-full bg-accent" />
+                        <span>{project.location}</span>
+                      </>
+                    )}
                     {project.client && (
                       <>
                         <div className="w-2 h-2 rounded-full bg-secondary/20" />
@@ -169,14 +173,16 @@ const ProjectModal = ({ isOpen, project, onClose, allProjects }) => {
                         {project.category}
                       </p>
                     </div>
-                    <div>
-                      <p className="text-secondary/50 text-xs uppercase tracking-wider font-medium mb-1">
-                        Location
-                      </p>
-                      <p className="text-primary font-semibold text-sm">
-                        {project.location}
-                      </p>
-                    </div>
+                    {project.category !== "Telecom" && (
+                      <div>
+                        <p className="text-secondary/50 text-xs uppercase tracking-wider font-medium mb-1">
+                          Location
+                        </p>
+                        <p className="text-primary font-semibold text-sm">
+                          {project.location}
+                        </p>
+                      </div>
+                    )}
                     {project.year && (
                       <div>
                         <p className="text-secondary/50 text-xs uppercase tracking-wider font-medium mb-1">

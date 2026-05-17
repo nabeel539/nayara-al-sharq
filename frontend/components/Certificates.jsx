@@ -128,6 +128,7 @@ function CertificateCard({ cert, index }) {
               fill
               className="object-contain p-1 md:p-2 transition-transform duration-500 group-hover:scale-102"
               priority={index < 4}
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
             />
           </div>
 
